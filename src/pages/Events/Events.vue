@@ -166,7 +166,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .events {
   background: #000000;
   height: 100vh;
