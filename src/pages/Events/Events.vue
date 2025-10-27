@@ -170,7 +170,7 @@ export default {
 .events {
   background: #000000;
   height: 100vh;
-  padding: 20px 150px;
+  padding: 20px 200px;
 }
 .header {
   display: flex;

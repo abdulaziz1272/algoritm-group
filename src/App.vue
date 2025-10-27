@@ -1,18 +1,16 @@
 <template>
   <div class="app-container">
-    <Header />
+    <DefaultLayout />
   </div>
 </template>
 
 <script>
-import Header from "./components/Header/Header.vue";
-import Events from "./pages/Events/Events.vue";
+import DefaultLayout from "./layout/DefaultLayout.vue";
 
 export default {
   name: "App",
   components: {
-    Events,
-    Header,
+    DefaultLayout,
   },
 };
 </script>
