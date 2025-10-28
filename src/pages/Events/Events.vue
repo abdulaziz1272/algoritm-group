@@ -169,8 +169,7 @@ export default {
 <style scoped>
 .events {
   background: #000000;
-  height: 100vh;
-  padding: 20px 200px;
+  padding: 100px 200px;
 }
 .header {
   display: flex;

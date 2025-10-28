@@ -17,7 +17,6 @@ export default {
 
 <style>
 .app-container {
-  height: 100vh;
   background: #000000;
 }
 </style>
