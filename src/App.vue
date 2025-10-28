@@ -1,18 +1,23 @@
 <template>
   <div class="app-container">
-    <Events />
+    <DefaultLayout />
   </div>
 </template>
 
 <script>
-import Events from "./pages/Events/Events.vue";
+import DefaultLayout from "./layout/DefaultLayout.vue";
 
 export default {
   name: "App",
   components: {
-    Events,
+    DefaultLayout,
   },
 };
 </script>
 
-<style scoped></style>
+<style>
+.app-container {
+  height: 100vh;
+  background: #000000;
+}
+</style>
